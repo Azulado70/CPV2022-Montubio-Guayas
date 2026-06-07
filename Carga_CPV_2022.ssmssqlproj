@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Carga_CPV_2022">
+  <Items>
+    <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="LAPTOP-U7OHUP55:LAPTOP-U7OHUP55\Usuario">
+          <Created>2026-06-07T15:41:10.4415879-05:00</Created>
+          <Type>SQL</Type>
+          <Server>LAPTOP-U7OHUP55</Server>
+          <UserName />
+          <Authentication>Autenticación de Windows</Authentication>
+          <InitialDB>CensoDB2022</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_Carga_Hogar.sql .sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_Carga_Hogar.sql .sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Carga_Vivienda.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-U7OHUP55:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-U7OHUP55</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_Carga_Vivienda.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Carga_Poblacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-U7OHUP55:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-U7OHUP55</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_Carga_Poblacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Vista_Montubio_Guayas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-U7OHUP55:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-U7OHUP55</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_Vista_Montubio_Guayas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_Analisis_Montubio.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-U7OHUP55:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-U7OHUP55</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_Analisis_Montubio.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Varios" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
